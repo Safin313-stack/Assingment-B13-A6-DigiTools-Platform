@@ -42,3 +42,4 @@ const Navbar = ({ cartCount }) => {
 
 export default Navbar;
 // Commit 4: Navbar update note
+// Refactor navbar responsiveness
