@@ -6,7 +6,7 @@
 
 ## 🚀 Live Site
 
-[🔗 Live Demo](https://your-username.github.io/digitools)
+[🔗 Live Demo](https://Safin313-stack.github.io/B13-A6-DigiTools-Platform)
 
 ---
 
@@ -34,7 +34,7 @@
 ## 📦 Getting Started
 
 ```bash
-git clone https://github.com/your-username/digitools.git
+git clone https://github.com/Safin313-stack/B13-A6-DigiTools-Platform.git
 cd digitools
 npm install
 npm run dev
@@ -64,4 +64,15 @@ src/
 ---
 
 Made with ❤️ by [Saharia Hassan Safin](https://github.com/Safin313-stack)
-# B13-A6-DigiTools-Platform
+
+## 📸 Screenshots
+
+### Hero Banner
+![Hero Banner](src/assets/hero.webp)
+
+### Product Grid
+![Product Grid](src/assets/design-tool.png)
+
+### Shopping Cart View
+![Cart](src/assets/shopping-cart.png)
+
