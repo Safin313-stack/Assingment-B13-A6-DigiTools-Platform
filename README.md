@@ -6,7 +6,7 @@
 
 ## 🚀 Live Site
 
-[🔗 Live Demo](https://safin313-stack.github.io/B13-A6-DigiTools-Platform)
+[🔗 Live Demo](https://safin313-stack.github.io/B13-A6-DigiTools-Platform/)
 
 ---
 
