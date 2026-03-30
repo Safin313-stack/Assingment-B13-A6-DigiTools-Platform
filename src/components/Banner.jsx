@@ -55,3 +55,4 @@ const Banner = () => {
 
 export default Banner;
 /* Commit 5: Banner style comment */
+/* Banner animation improvements */
