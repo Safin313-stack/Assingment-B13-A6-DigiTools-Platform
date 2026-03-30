@@ -31,3 +31,4 @@ function App() {
 
 export default App;
 // Commit 2: Add comment to App.jsx
+// Commit 1: Optimize component imports
