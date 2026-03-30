@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* { scroll-behavior: smooth; box-sizing: border-box; }
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
+  color: #101727;
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-up { animation: fadeUp 0.5s ease forwards; }
+
+.tag-popular { background: #FFF3E0; color: #E65100; border: 1px solid #FFCC80; }
+.tag-new { background: #E8F5E9; color: #2E7D32; border: 1px solid #A5D6A7; }
+.tag-bestseller { background: #EDE7F6; color: #4527A0; border: 1px solid #B39DDB; }
+
+.gradient-border {
+  border: 1px solid transparent;
+  background: linear-gradient(white, white) padding-box,
+              linear-gradient(135deg, #4F39F6, #7C3AED) border-box;
+}
+/* Commit 7: Final tweaks */
