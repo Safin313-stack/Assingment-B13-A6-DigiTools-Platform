@@ -1,3 +1,4 @@
+# Assignment-B13-A6-DigiTools-Platform
 # 🛠️ DigiTools Platform
 
 > A modern digital tools marketplace where professionals discover, compare, and purchase the best software to supercharge their workflow.
@@ -6,7 +7,7 @@
 
 ## 🚀 Live Site
 
-[🔗 Live Demo](https://safin313-stack.github.io/B13-A6-DigiTools-Platform/)
+[🔗 Live Demo](https://safin313-stack.github.io/B13-A6-DigiTools-Platform)
 
 ---
 
