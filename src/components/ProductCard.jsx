@@ -95,3 +95,4 @@ const ProductCard = ({ product, onAddToCart, cartItems }) => {
 
 export default ProductCard;
 // Commit 6: Product card tweak
+// ProductCard performance optimization
