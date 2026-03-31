@@ -9,14 +9,10 @@ const Footer = () => (
             </div>
             <span className="font-bold text-lg text-white">DigiTools</span>
           </div>
-          <p className="text-gray-400 text-sm leading-relaxed mb-5">
-            The ultimate marketplace for digital tools. Empowering creators worldwide.
-          </p>
+          <p className="text-gray-400 text-sm leading-relaxed mb-5">The ultimate marketplace for digital tools. Empowering creators worldwide.</p>
           <div className="flex gap-2">
             {['𝕏', 'in', 'f', '▶'].map((icon, i) => (
-              <a key={i} href="#" className="w-8 h-8 rounded-lg bg-gray-800 hover:bg-[#4F39F6] flex items-center justify-center text-gray-400 hover:text-white transition-all text-xs">
-                {icon}
-              </a>
+              <a key={i} href="#" className="w-8 h-8 rounded-lg bg-gray-800 hover:bg-[#4F39F6] flex items-center justify-center text-gray-400 hover:text-white transition-all text-xs">{icon}</a>
             ))}
           </div>
         </div>
@@ -28,9 +24,7 @@ const Footer = () => (
           <div key={i}>
             <h4 className="font-bold text-white text-sm mb-4">{col.title}</h4>
             <ul className="space-y-2.5">
-              {col.links.map(l => (
-                <li key={l}><a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">{l}</a></li>
-              ))}
+              {col.links.map(l => <li key={l}><a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">{l}</a></li>)}
             </ul>
           </div>
         ))}
@@ -38,13 +32,10 @@ const Footer = () => (
       <div className="border-t border-gray-800 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3">
         <p className="text-gray-500 text-xs">© 2026 DigiTools Platform. All rights reserved.</p>
         <div className="flex gap-4">
-          {['Privacy', 'Terms', 'Cookies'].map(l => (
-            <a key={l} href="#" className="text-gray-500 hover:text-gray-300 text-xs transition-colors">{l}</a>
-          ))}
+          {['Privacy', 'Terms', 'Cookies'].map(l => <a key={l} href="#" className="text-gray-500 hover:text-gray-300 text-xs transition-colors">{l}</a>)}
         </div>
       </div>
     </div>
   </footer>
 );
-
 export default Footer;

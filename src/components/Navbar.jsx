@@ -3,22 +3,17 @@ const Navbar = ({ cartCount }) => {
     <nav className="bg-white border-b border-gray-200 sticky top-0 z-50">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          {/* Logo */}
           <div className="flex items-center gap-2">
             <div className="w-7 h-7 rounded-lg bg-[#4F39F6] flex items-center justify-center">
               <span className="text-white font-bold text-xs">D</span>
             </div>
             <span className="font-bold text-lg text-[#101727]">DigiTools</span>
           </div>
-
-          {/* Nav Links */}
           <div className="hidden md:flex items-center gap-8">
             {['Home', 'Products', 'Resources', 'Business', 'More Info'].map(l => (
               <a key={l} href="#" className="text-[#627382] hover:text-[#4F39F6] text-sm font-medium transition-colors">{l}</a>
             ))}
           </div>
-
-          {/* Right side */}
           <div className="flex items-center gap-3">
             <a href="#products" className="relative p-2 text-[#627382] hover:text-[#4F39F6]">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -39,7 +34,4 @@ const Navbar = ({ cartCount }) => {
     </nav>
   );
 };
-
 export default Navbar;
-// Commit 4: Navbar update note
-// Refactor navbar responsiveness

@@ -8,26 +8,23 @@ export default {
         'primary-dark': '#3B27E8',
         'primary-light': '#EDE9FE',
         dark: '#101727',
-        gray: '#627382',
+        muted: '#627382',
         'light-bg': '#F8F9FF',
-        'border-col': '#E5E7EB',
       }
     },
   },
   plugins: [require("daisyui")],
   daisyui: {
-    themes: [
-      {
-        digitools: {
-          "primary": "#4F39F6",
-          "secondary": "#7C3AED",
-          "accent": "#4F39F6",
-          "neutral": "#101727",
-          "base-100": "#ffffff",
-          "base-200": "#F8F9FF",
-          "base-300": "#E5E7EB",
-        },
+    themes: [{
+      digitools: {
+        "primary": "#4F39F6",
+        "secondary": "#7C3AED",
+        "accent": "#4F39F6",
+        "neutral": "#101727",
+        "base-100": "#ffffff",
+        "base-200": "#F8F9FF",
+        "base-300": "#E5E7EB",
       },
-    ],
+    }],
   },
 }

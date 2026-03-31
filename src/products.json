@@ -1,68 +1,8 @@
 [
-  {
-    "id": 1,
-    "name": "AI Writing Pro",
-    "description": "Create high-quality content instantly with AI. Blog posts, emails, ad copy — all in seconds.",
-    "price": 24,
-    "period": "monthly",
-    "tag": "Popular",
-    "tagType": "popular",
-    "features": ["Unlimited content generation", "50+ content templates", "Plagiarism checker", "Export to PDF & DOCX"],
-    "icon": "writing"
-  },
-  {
-    "id": 2,
-    "name": "Design Template Pack",
-    "description": "Professional design templates for social media, presentations, and marketing materials.",
-    "price": 49,
-    "period": "one-time",
-    "tag": "Best Seller",
-    "tagType": "bestseller",
-    "features": ["500+ templates", "Fully editable designs", "Commercial license", "Regular updates"],
-    "icon": "design-tool"
-  },
-  {
-    "id": 3,
-    "name": "Premium React Assets",
-    "description": "Ready-to-use React UI components, hooks, and starter templates for modern web apps.",
-    "price": 79,
-    "period": "one-time",
-    "tag": "New",
-    "tagType": "new",
-    "features": ["100+ UI components", "TypeScript support", "Dark mode ready", "Lifetime updates"],
-    "icon": "package"
-  },
-  {
-    "id": 4,
-    "name": "Automation Toolkit",
-    "description": "Automate your repetitive tasks and workflows. Save hours every week with smart automation.",
-    "price": 39,
-    "period": "monthly",
-    "tag": "Popular",
-    "tagType": "popular",
-    "features": ["500+ integrations", "No-code builder", "Webhook support", "Error monitoring"],
-    "icon": "operation"
-  },
-  {
-    "id": 5,
-    "name": "Resume Builder Pro",
-    "description": "Create ATS-optimized resumes and portfolios that get you hired faster.",
-    "price": 12,
-    "period": "monthly",
-    "tag": "Best Seller",
-    "tagType": "bestseller",
-    "features": ["100+ templates", "ATS optimization", "Cover letter builder", "Export to PDF"],
-    "icon": "portfolio"
-  },
-  {
-    "id": 6,
-    "name": "Social Media Content Kit",
-    "description": "Schedule, create, and analyze your social media content from one powerful dashboard.",
-    "price": 19,
-    "period": "monthly",
-    "tag": "New",
-    "tagType": "new",
-    "features": ["Post scheduling", "Analytics dashboard", "Caption generator", "10 social platforms"],
-    "icon": "social-media"
-  }
+  { "id": 1, "name": "AI Writing Pro", "description": "Create high-quality content instantly with AI. Blog posts, emails, ad copy — all in seconds.", "price": 24, "period": "monthly", "tag": "Popular", "tagType": "popular", "features": ["Unlimited content generation", "50+ content templates", "Plagiarism checker", "Export to PDF & DOCX"], "icon": "writing" },
+  { "id": 2, "name": "Design Template Pack", "description": "Professional design templates for social media, presentations, and marketing materials.", "price": 49, "period": "one-time", "tag": "Best Seller", "tagType": "bestseller", "features": ["500+ templates", "Fully editable designs", "Commercial license", "Regular updates"], "icon": "design-tool" },
+  { "id": 3, "name": "Premium React Assets", "description": "Ready-to-use React UI components, hooks, and starter templates for modern web apps.", "price": 79, "period": "one-time", "tag": "New", "tagType": "new", "features": ["100+ UI components", "TypeScript support", "Dark mode ready", "Lifetime updates"], "icon": "package" },
+  { "id": 4, "name": "Automation Toolkit", "description": "Automate your repetitive tasks and workflows. Save hours every week with smart automation.", "price": 39, "period": "monthly", "tag": "Popular", "tagType": "popular", "features": ["500+ integrations", "No-code builder", "Webhook support", "Error monitoring"], "icon": "operation" },
+  { "id": 5, "name": "Resume Builder Pro", "description": "Create ATS-optimized resumes and portfolios that get you hired faster.", "price": 12, "period": "monthly", "tag": "Best Seller", "tagType": "bestseller", "features": ["100+ templates", "ATS optimization", "Cover letter builder", "Export to PDF"], "icon": "portfolio" },
+  { "id": 6, "name": "Social Media Content Kit", "description": "Schedule, create, and analyze your social media content from one powerful dashboard.", "price": 19, "period": "monthly", "tag": "New", "tagType": "new", "features": ["Post scheduling", "Analytics dashboard", "Caption generator", "10 social platforms"], "icon": "social-media" }
 ]

@@ -3,7 +3,6 @@ const stats = [
   { value: "200+", label: "Digital Tools" },
   { value: "4.9", label: "Rating" },
 ];
-
 const Stats = () => (
   <section className="py-8" style={{background: 'linear-gradient(135deg, #4F39F6 0%, #7C3AED 100%)'}}>
     <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -18,5 +17,4 @@ const Stats = () => (
     </div>
   </section>
 );
-
 export default Stats;
